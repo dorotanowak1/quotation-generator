@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+p {
+  padding: 2em 0 0 1em;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  background-color: #ededed;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  min-height: 100vh;
+}
+
+body {
+  font-size: 2vw;
+}
+
+.title {
+  padding: 2em;
+}
+#option {
+  margin: 1em;
+}
+* {
+  font-family: "Playfair Display", serif;
+}
+
+#genquotebutton {
+  background-color: #1a99aa;
+  border-radius: 5px;
+  padding: 0.5em 2em;
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 1em;
+}
